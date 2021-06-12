@@ -15,7 +15,7 @@
 #include <assert.h>
 #include <unistd.h>
 
-void  mifunction1(int *numero);
+void  mifunction1(int *numerom);
 
 int main(void) {
 
