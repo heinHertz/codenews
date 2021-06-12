@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
 #include <unistd.h>
@@ -16,7 +15,7 @@
 #include <assert.h>
 #include <unistd.h>
 
-void  mifunction1(int *numero);
+void  mifunction1(int *numerom);
 
 int main(void) {
 
@@ -35,7 +34,7 @@ char * text2 = " 1 , 2 , 3 , 4 ,5 , 6";
 
 	printf("Ressss _ ------------%d-------------", commas);
 
-
+	printf("hello");
 
 	char * new = malloc( 5 );
 
